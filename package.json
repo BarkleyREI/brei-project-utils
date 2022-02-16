@@ -1,0 +1,19 @@
+{
+  "name": "brei-project-utils",
+  "version": "0.0.1",
+  "description": "Utility scripts for front-end projects.",
+  "main": "utils.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BarkleyREI/brei-project-utils.git"
+  },
+  "author": "Ian Moffitt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BarkleyREI/brei-project-utils/issues"
+  },
+  "homepage": "https://github.com/BarkleyREI/brei-project-utils#readme"
+}
