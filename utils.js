@@ -46,6 +46,17 @@ const closeButton = function closeButton(style, label, dataSelector) {
 };
 
 /**
+ * @name dataPush
+ * @param {object} data
+ */  
+const dataPush = function dataPush(data) {
+	// if the Google Tag Manager data layer exists, stringify the object and push it to the datalayer
+	if(window.dataLayer) {
+		dataLayer.push(JSON.stringify(data));
+	}
+};
+
+/**
  * @name dirButton
  * @param {string} style
  * @param {string} label
